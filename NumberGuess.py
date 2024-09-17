@@ -14,7 +14,7 @@ class NumberGuess:
             elif (self.guess > self.number):
                 print("Too high")
             else:
-                print("You guessed the number!")
+                print("You guessed the number! congrats")    
                 
 game = NumberGuess()
 game.play()
